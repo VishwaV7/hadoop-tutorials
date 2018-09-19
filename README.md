@@ -9,7 +9,7 @@ If you are using it for first time, then please install
 2. Clone the Repo: 
 
 ``` 
-git clone https://github.com/Omni212/Big-Data-Hadoop-Training.git
+git clone https://github.com/becloudready/hadoop-tutorials.git
 
 ``` 
 
