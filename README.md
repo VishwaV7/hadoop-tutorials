@@ -47,6 +47,15 @@ hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming-2.7.3.2.6.2
 -input /user/ssh/5000-8.txt -output /user/ssh/output
 
 ```
+Run the MapReduce job [AWS EMR ]
+
+```
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming-2.8.4-amzn-1.jar \
+-file /home/hadoop/mapper.py    -mapper /home/hadoop/mapper.py \
+-file /home/hadoop/reducer.py   -reducer /home/hadoop/reducer.py \
+-input /user/ssh/5000-8.txt -output /user/ssh/output
+
+```
 
 Run the MapReduce job [ Cloudera Sandbox ]
 
