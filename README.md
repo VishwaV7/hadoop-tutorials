@@ -5,7 +5,7 @@
 
 If you are using it for first time, then please install 
 
-1. Gitbash https://git-scm.com/downloads works for Windows, Linux, Mac
+1. Setup your local PC for git : https://www.becloudready.com/forum/resources/github-with-ms-visual-studio-code
 2. Clone the Repo: 
 
 ``` 
@@ -14,7 +14,7 @@ git clone https://github.com/becloudready/hadoop-tutorials.git
 ``` 
 
 # Instructions for Module 4
-
+Gitbash
 Once cloned the repo, make sure the code works by doing a local map reduce
 
 ```
