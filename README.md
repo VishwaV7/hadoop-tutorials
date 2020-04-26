@@ -41,9 +41,9 @@ hdfs dfs -copyFromLocal 5000-8.txt /user/ssh
 Run the Map reduce job [ Azure HDInsight ]
 
 ```
-hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming-2.7.3.2.6.2.3-1.jar \
--file /home/sshuser/mapper.py    -mapper /home/sshuser/mapper.py \
--file /home/sshuser/reducer.py   -reducer /home/sshuser/reducer.py \
+hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming-2.7.3.2.6.5.3015-8.jar \
+-file /home/sshuser/hadoop-tutorials/Module4/mapper.py    -mapper /home/sshuser/hadoop-tutorials/Module4/mapper.py \
+-file /home/sshuser/hadoop-tutorials/Module4/reducer.py   -reducer /home/sshuser/hadoop-tutorials/Module4/reducer.py \
 -input /user/ssh/5000-8.txt -output /user/ssh/output
 
 ```
