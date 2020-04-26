@@ -5,7 +5,7 @@
 
 If you are using it for first time, then please install 
 
-1. Setup your local PC for git : https://www.becloudready.com/forum/resources/github-with-ms-visual-studio-code
+1. Setup your local PC for git
 2. Clone the Repo: 
 
 ``` 
